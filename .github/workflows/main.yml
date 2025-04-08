@@ -1,0 +1,9 @@
+# My workflow 
+name: My first workflow
+
+on: [ push, pull_request ] 
+
+jobs:
+  job_1:
+    name: My first job
+    runs-on: ubuntu-latest
